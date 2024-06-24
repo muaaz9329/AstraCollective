@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "882383021286",
+    "project_id": "astracollective-858ae",
+    "storage_bucket": "astracollective-858ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882383021286:android:9ef259a669a1d26b880727",
+        "android_client_info": {
+          "package_name": "com.astracollection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882383021286-h82b723t549kagkcp64v7c1jr945ch68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.astracollection",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "882383021286-f1l9vpf6he84ejao7ssgolv9kn3d9v9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeSNMrHlNpcvy5lq4blYI9SMwG23wMuKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882383021286-f1l9vpf6he84ejao7ssgolv9kn3d9v9b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "882383021286-ogejn6398ufsghu8p6rmihiioa8r0ki1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.astraCollective",
+                "app_store_id": "6476975301"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

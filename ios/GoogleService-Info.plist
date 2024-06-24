@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>882383021286-ogejn6398ufsghu8p6rmihiioa8r0ki1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.882383021286-ogejn6398ufsghu8p6rmihiioa8r0ki1</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>882383021286-h82b723t549kagkcp64v7c1jr945ch68.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCfoheW4fm_3KBoMGjJEbzCLThW2hAKqOM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>882383021286</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.astraCollective</string>
+	<key>PROJECT_ID</key>
+	<string>astracollective-858ae</string>
+	<key>STORAGE_BUCKET</key>
+	<string>astracollective-858ae.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:882383021286:ios:a5dbbd52b0e48139880727</string>
+</dict>
+</plist>
