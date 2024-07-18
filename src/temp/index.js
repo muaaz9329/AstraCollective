@@ -204,7 +204,7 @@ function TasksForBeginnersComponent({
           }}
           disabled={isClaimed}>
           <LinearGradient
-            colors={['#4D55B3', '#A95093']} //   colors={['#2E3138', '#2E3138']} // disableColor
+            colors={['#5470FE', '#FA67C6']} //   colors={['#2E3138', '#2E3138']} // disableColor
             start={{
               x: 0,
               y: 0.5,
@@ -258,7 +258,7 @@ function WatchAdsComponent({
             handleItem(index);
           }}>
           <LinearGradient
-            colors={['#4D55B3', '#A95093']} //   colors={['#2E3138', '#2E3138']} // disableColor
+            colors={['#5470FE', '#FA67C6']} //   colors={['#2E3138', '#2E3138']} // disableColor
             start={{
               x: 0,
               y: 0.5,
@@ -421,7 +421,7 @@ const TempScreen = () => {
                 disabled={isClaimedTodayBonus}
                 onPress={handleTodayBonus}>
                 <LinearGradient
-                  colors={['#4D55B3', '#A95093']}
+                  colors={['#5470FE', '#FA67C6']}
                   //   colors={['#2E3138', '#2E3138']} // disableColor
                   start={{x: 0, y: 0.5}}
                   end={{x: 1, y: 0.5}}
