@@ -12,6 +12,8 @@ import {colors} from './src/services';
 import {withIAPContext} from 'react-native-iap';
 
 import {MenuProvider} from 'react-native-popup-menu';
+import TempScreen from './src/temp';
+import {ClaimAnimationContextProvider} from './src/Provider/claimModel';
 
 class App extends Component {
   render() {
@@ -20,15 +22,14 @@ class App extends Component {
     return (
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-          <View style={{flex: 1}}>
+          <ClaimAnimationContextProvider>
             <StatusBar
-              backgroundColor={colors.background}
-              barStyle={'dark-content'}
+              translucent
+              backgroundColor={'transparent'}
+              barStyle={'light-content'}
             />
-            <MenuProvider>
-              <MainNavigator />
-            </MenuProvider>
-          </View>
+            <TempScreen />
+          </ClaimAnimationContextProvider>
 
           <FlashMessage position="bottom" />
         </PersistGate>
@@ -37,4 +38,4 @@ class App extends Component {
   }
 }
 
-export default withIAPContext(App)
+export default withIAPContext(App);

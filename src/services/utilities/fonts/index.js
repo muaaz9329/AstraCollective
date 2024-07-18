@@ -17,6 +17,24 @@ const fontFamily = {
   MontserratSemiBoldItalic: 'Montserrat-SemiBoldItalic',
   MontserratThin: 'Montserrat-Thin',
   MontserratThinItalic: 'Montserrat-ThinItalic',
+  PoppinsBlack: 'Poppins-Black',
+  PoppinsBlackItalic: 'Poppins-BlackItalic',
+  PoppinsBold: 'Poppins-Bold',
+  PoppinsBoldItalic: 'Poppins-BoldItalic',
+  PoppinsExtraBold: 'Poppins-ExtraBold',
+  PoppinsExtraBoldItalic: 'Poppins-ExtraBoldItalic',
+  PoppinsExtraLight: 'Poppins-ExtraLight',
+  PoppinsExtraLightItalic: 'Poppins-ExtraLightItalic',
+  PoppinsItalic: 'Poppins-Italic',
+  PoppinsLight: 'Poppins-Light',
+  PoppinsLightItalic: 'Poppins-LightItalic',
+  PoppinsMedium: 'Poppins-Medium',
+  PoppinsMediumItalic: 'Poppins-MediumItalic',
+  PoppinsRegular: 'Poppins-Regular',
+  PoppinsSemiBold: 'Poppins-SemiBold',
+  PoppinsSemiBoldItalic: 'Poppins-SemiBoldItalic',
+  PoppinsThin: 'Poppins-Thin',
+  PoppinsThinItalic: 'Poppins-ThinItalic',
 };
 
 const Montserrat = weight => {
@@ -42,4 +60,27 @@ const Montserrat = weight => {
   }
 };
 
-export {fontFamily, Montserrat};
+const Poppins = weight => {
+  switch (Number(weight)) {
+    case 100:
+      return fontFamily.PoppinsExtraLight;
+    case 200:
+      return fontFamily.PoppinsLight;
+    case 300:
+      return fontFamily.PoppinsThin;
+    case 400:
+      return fontFamily.PoppinsRegular;
+    case 500:
+      return fontFamily.PoppinsMedium;
+    case 600:
+      return fontFamily.PoppinsSemiBold;
+    case 700:
+      return fontFamily.PoppinsBold;
+    case 800:
+      return fontFamily.PoppinsExtraBold;
+    default:
+      return fontFamily.PoppinsRegular;
+  }
+};
+
+export {fontFamily, Montserrat, Poppins};
